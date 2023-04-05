@@ -1,0 +1,55 @@
+* {
+    font-size: 15px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.spacer {
+    flex: 1 1 auto;
+  }
+
+mat-toolbar {
+    background-color: #29468e;
+}
+
+span {
+    padding: 10px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a.toolbar-buttons {
+    display: block;
+    width: auto;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+
+
+a.toolbar-buttons:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    background-color: white;
+    color: #29468e;
+}
+
+a.toolbar-buttons:active {
+    transition: none;
+    transform: scale(1.0);
+}
+
+form.search-form {
+    margin-left: 25px;
+}
+
+
